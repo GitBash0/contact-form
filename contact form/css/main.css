@@ -1,0 +1,169 @@
+
+html {
+    position: relative;
+    height: 100%;
+    min-height: 100%;
+    width: 100%;
+    overflow: hidden
+}
+
+body {
+    position: initial;
+    font-family: poppins, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 100%;
+    background-color:#132a4f;
+    background-position: center center;
+    background-size: calc(100% + 25px);
+    background-repeat: repeat;
+    background-attachment: fixed;
+    overflow-y: auto;
+    overflow-x: hidden
+}
+
+
+.page-scroll {
+    width: 100%;
+    height: auto;
+    min-height: 100%;
+    vertical-align: middle;
+    -ms-flex-pack: center;
+    justify-content: center;
+    flex-direction: column;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-direction: normal;
+    -moz-box-direction: normal;
+    -webkit-box-orient: horizontal;
+    -moz-box-orient: horizontal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-content: stretch;
+    -ms-flex-line-pack: stretch;
+    align-content: stretch;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -ms-flex-align: center;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden
+}
+
+
+body,
+p {
+    font-family: poppins, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.75em;
+    color: #d5d5d5
+}
+
+p {
+    font-size: 14px;
+    color: #d5d5d5;
+    margin: 0 0 10px
+}
+
+
+
+
+.form-control,
+.form-control:focus {
+    height: 42px
+}
+
+.form-control,
+.form-control:focus,
+.has-error .form-control,
+.has-error .form-control:focus,
+input[type=search],
+input[type=password],
+input[type=text] {
+    position: relative;
+    border: 2px solid #555;
+    border-radius: 5px;
+    display: block;
+    font-size: 1em;
+    margin: 0;
+    padding: 10px 25px 10px 12px;
+    width: 100%;
+    min-width: 100%;
+    background: 0 0;
+    text-align: left;
+    color: #eee;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    outline: none;
+    font-family: poppins, Helvetica, sans-serif
+}
+
+
+
+
+.form-control:focus+.form-control-border {
+    left: 0;
+    right: 0;
+    height: 100%;
+    z-index: 1;
+    opacity: 1;
+    border-right-width: 2px
+}
+
+
+.page-container {
+    display: flex;
+    flex-flow: column;
+    position: relative;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 1240px;
+    margin: 3% auto;
+    padding: 40px 70px 60px;
+    background-color: #222;
+    -webkit-box-shadow: 0 0 40px -10px rgba(0, 0, 0, .2);
+    -moz-box-shadow: 0 0 40px -10px rgba(0, 0, 0, .2);
+    box-shadow: 0 0 40px -10px rgba(0, 0, 0, .2);
+    border-radius: 40px;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    backface-visibility: hidden
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
